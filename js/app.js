@@ -1,23 +1,28 @@
 'use strict'
 
 
-class Book = {
+class Book {
 
 };
 
-class CD = {
+class CD {
 
 };
 
-class Movie = {
+class Movie {
 
 }
 
-class Media = {
+class Media {
   constructor(image){
     this._title = '',
-    this._ratings =[],
-
+    this._ratings = [],
+    this._isCheckedOut = false
   }
+
+  get isCheckedOut() {
+    return this._isCheckedOut;
+  }
+
 }
 
