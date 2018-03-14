@@ -24,5 +24,27 @@ class Media {
     return this._isCheckedOut;
   }
 
+  get ratings() {
+    return this._ratings;
+  }
+
+  get title() {
+    return this._title;
+  } 
+
+  toggleCheckOutStatus(){
+    if(this._isCheckedOut = !this._isCheckedOut) {
+      this._isCheckedOut = false;
+    } else {
+      this._isCheckedOut = true;
+    }
+  }
+
+  getAverageRating(){
+    return 
+  }
+  set isCheckedOut() {
+
+  }
 }
 
